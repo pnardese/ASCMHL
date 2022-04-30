@@ -26,3 +26,11 @@ da verificare - hash type
 creare un ambiente in conda, installare i packages richiesti per mezzo del file requirements.txt
 
 $> pip3 install --upgrade-strategy only-if-needed -r /path/to/requirements.txt
+
+### disattivare caricamento automatico di conda base environment
+$> conda config --set auto_activate_base false
+
+quindi:
+$> conda activate my_env
+
+$> conda deactivate
