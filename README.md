@@ -11,3 +11,12 @@ dopo la copia su un disco_server
 se occorre un diverso tipo di hash (es. MD5)
 
 > ascmhl create -v -h md5 /disco_server/A002R2EC
+
+da verificare - hash type
+- md5
+- sha1
+- xxh32
+- xxh64
+- xxh3
+- xxh128
+- C4
