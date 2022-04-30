@@ -2,15 +2,15 @@
 
 ## Crea MHL
 
-> ascmhl create -v /disco_spola/A002R2EC
+$> ascmhl create -v /disco_spola/A002R2EC
 
 dopo la copia su un disco_server
 
-> ascmhl create -v /disco_server/A002R2EC
+$> ascmhl create -v /disco_server/A002R2EC
 
 se occorre un diverso tipo di hash (es. MD5)
 
-> ascmhl create -v -h md5 /disco_server/A002R2EC
+$> ascmhl create -v -h md5 /disco_server/A002R2EC
 
 da verificare - hash type
 - md5
@@ -20,3 +20,8 @@ da verificare - hash type
 - xxh3
 - xxh128
 - C4
+
+
+** Installazione di ascmhl in anaconda:
+creare un ambiente in conda, installare i packages richiesti per mezzo del file requirements.txt
+$> pip3 install -r /path/to/requirements.txt
