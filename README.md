@@ -22,7 +22,7 @@ da verificare - hash type
 - C4
 
 
-** Installazione di ascmhl in anaconda:
+## Installazione di ascmhl in anaconda:
 creare un ambiente in conda, installare i packages richiesti per mezzo del file requirements.txt
 
 $> pip3 install -r /path/to/requirements.txt
